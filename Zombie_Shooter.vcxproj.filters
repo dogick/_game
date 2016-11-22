@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="TinyXML">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="LTBL">
+      <UniqueIdentifier>{db4c532e-38c9-41b2-9cb6-be0a68d5ecf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Карта">
+      <UniqueIdentifier>{52f4392c-d91f-4658-8e8e-84f63833c723}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\TinyXML\tinystr.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\TinyXML\tinyxml.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="level.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ltbl\Math.h">
+      <Filter>LTBL</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ltbl\lighting\LightDirectionEmission.h">
+      <Filter>LTBL</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ltbl\lighting\LightPointEmission.h">
+      <Filter>LTBL</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ltbl\lighting\LightShape.h">
+      <Filter>LTBL</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ltbl\lighting\LightSystem.h">
+      <Filter>LTBL</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ltbl\quadtree\DynamicQuadtree.h">
+      <Filter>LTBL</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ltbl\quadtree\Quadtree.h">
+      <Filter>LTBL</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ltbl\quadtree\QuadtreeNode.h">
+      <Filter>LTBL</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ltbl\quadtree\QuadtreeOccupant.h">
+      <Filter>LTBL</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ltbl\quadtree\StaticQuadtree.h">
+      <Filter>LTBL</Filter>
+    </ClInclude>
+    <ClInclude Include="Var.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="BloodEffect.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\TinyXML\tinystr.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\TinyXML\tinyxml.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\TinyXML\tinyxmlerror.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\TinyXML\tinyxmlparser.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="level.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\ltbl\Math.cpp">
+      <Filter>LTBL</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\ltbl\lighting\LightDirectionEmission.cpp">
+      <Filter>LTBL</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\ltbl\lighting\LightPointEmission.cpp">
+      <Filter>LTBL</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\ltbl\lighting\LightShape.cpp">
+      <Filter>LTBL</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\ltbl\lighting\LightSystem.cpp">
+      <Filter>LTBL</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\ltbl\quadtree\DynamicQuadtree.cpp">
+      <Filter>LTBL</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\ltbl\quadtree\Quadtree.cpp">
+      <Filter>LTBL</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\ltbl\quadtree\QuadtreeNode.cpp">
+      <Filter>LTBL</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\ltbl\quadtree\QuadtreeOccupant.cpp">
+      <Filter>LTBL</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\ltbl\quadtree\StaticQuadtree.cpp">
+      <Filter>LTBL</Filter>
+    </ClCompile>
+    <ClCompile Include="Var.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="BloodEffect.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="map\map.tmx">
+      <Filter>Карта</Filter>
+    </None>
+  </ItemGroup>
+</Project>
